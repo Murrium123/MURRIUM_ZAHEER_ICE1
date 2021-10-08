@@ -7,14 +7,19 @@ package ca.sheridancollege.week3.softwarefundamentals.ice1.Friday;
 
 /**
  *
- * @author Murrium Zaheer
+ * @author Murrium Zaheer 991 305 915
  */
 public class Card {
 
-   private String suit; //clubs, spades, diamonds, hearts
-   private int value;//1-13
+   public String suit; //clubs, spades, diamonds, hearts
+   public int value;//1-13
 
    public static final String [] SUITS = {"Hearts", "Diamonds", "Spades", "Clubs"};
+
+    Card(String x, int y) {
+        suit = x;
+        value = y;
+         }
     /**
      * @return the suit
      */
