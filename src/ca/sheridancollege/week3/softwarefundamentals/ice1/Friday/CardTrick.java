@@ -9,7 +9,7 @@ public class CardTrick {
     public static void main(String[] args)
     {
         Card card = new Card("Diamonds",1); 
-        
+        System.out.print(card);
     }
 
 }
