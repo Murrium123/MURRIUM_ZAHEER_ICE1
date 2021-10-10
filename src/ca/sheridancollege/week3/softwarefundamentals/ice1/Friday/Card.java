@@ -11,14 +11,21 @@ package ca.sheridancollege.week3.softwarefundamentals.ice1.Friday;
  */
 public class Card {
 
-   private String suit; //clubs, spades, diamonds, hearts
-   private int value;//1-13
+   public String suit; //clubs, spades, diamonds, hearts
+   public int value;//1-13
 
    public static final String [] SUITS = {"Hearts", "Diamonds", "Spades", "Clubs"};
 
-    Card(String diamonds, int i) {
+
+  /*  Card(String diamonds, int i) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+    }*/
+
+    Card(String x, int y) {
+        suit = x;
+        value = y;
+         }
+
     /**
      * @return the suit
      */
@@ -50,5 +57,3 @@ public class Card {
    
     
 }
-
-
