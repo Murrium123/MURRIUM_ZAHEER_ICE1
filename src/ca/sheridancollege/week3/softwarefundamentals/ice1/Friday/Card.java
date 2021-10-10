@@ -16,16 +16,10 @@ public class Card {
 
    public static final String [] SUITS = {"Hearts", "Diamonds", "Spades", "Clubs"};
 
-
-  /*  Card(String diamonds, int i) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }*/
-
     Card(String x, int y) {
         suit = x;
         value = y;
          }
-
     /**
      * @return the suit
      */
