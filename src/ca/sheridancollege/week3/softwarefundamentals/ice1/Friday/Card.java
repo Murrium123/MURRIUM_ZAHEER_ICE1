@@ -7,7 +7,7 @@ package ca.sheridancollege.week3.softwarefundamentals.ice1.Friday;
 
 /**
  *
- * @author Ronak
+ * @author Murrium Zaheer 991 305 915
  */
 public class Card {
 
@@ -15,6 +15,10 @@ public class Card {
    private int value;//1-13
 
    public static final String [] SUITS = {"Hearts", "Diamonds", "Spades", "Clubs"};
+
+    Card(String diamonds, int i) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     /**
      * @return the suit
      */
