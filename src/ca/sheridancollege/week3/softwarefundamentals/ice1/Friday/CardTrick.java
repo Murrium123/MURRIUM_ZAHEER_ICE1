@@ -11,7 +11,8 @@ public class CardTrick {
         Card card = new Card("Diamonds",1); 
         System.out.print(" ");
         System.out.print(card);
-        
+        Card card1 = new Card("Hearts", 2);
+        System.out.print(card1);
     }
 
 }
